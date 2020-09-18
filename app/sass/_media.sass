@@ -1,0 +1,513 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+    .main-menu-list-item
+        color: #fff
+        font-size: 14px
+        margin-left: 12px
+    .our-team-descriptor-signa
+        margin-top: 70px
+    .our-team-descriptor-text
+        font-size: 24px
+    .designers-card-description
+        font-size: 16px
+    .designers-card-title
+        margin-bottom: 9px
+        font-size: 32px
+    .first-designer-card
+        padding: 15px 125px 15px 15px
+        width: 423px
+        height: 203px
+        line-height: 1.2
+        & img
+            right: -80px
+            width: 100%
+            max-width: 215px
+    .second-designer-card
+        padding: 15px 67px 15px 15px
+        width: 374px
+        height: 204px
+        margin-left: 40px
+        line-height: 1.2
+        & img
+            right: -80px
+            width: 100%
+            max-width: 221px
+    .our-partners-area img
+        width: 70%
+        margin: 10px auto
+    .our-partners-title
+        font-size: 30px
+
+
+// ≥992px
++media-breakpoint-down(md)
+    .how-choose-marged-row
+        margin-left: 0
+    .main-header-slide
+        height: 100vh
+        min-height: 500px
+
+    .main-menu-banner-area
+        font-size: 45px
+        padding: 0 20px
+    .modal-contact-form
+        width: 100%
+        max-width: 510px
+        padding: 30px
+    .modal-title
+        font-size: 34px
+    .text-input
+        height: 60px
+        padding-left: 15px
+        font-size: 16px
+    .checkbox-description
+        font-size: 16px
+    .form-button
+        width: 215px
+        height: 60px
+        font-size: 16px
+
+    .h2
+        font-size: 34px
+    .h1
+        font-size: 45px
+    p
+        font-size: 16px
+    .about-style-section
+        padding: 80px 0 100px 0
+    .blue-button
+        max-width: 540px
+    .blue-area
+        margin-top: 20px
+    .form-subtitle
+        font-size: 20px
+
+    .steps-card-header-description
+        font-size: 20px
+    .steps-card-description
+        font-size: 15px
+    .steps-card-header
+        margin-bottom: 30px
+    .steps-card
+        padding-left: 40px
+        width: 100%
+        max-width: 260px
+    .left-table-title
+        font-size: 18px
+        display: none
+
+    .table-comparison td
+        font-size: 14px
+        padding: 10px
+    .table-header-title
+        font-size: 30px
+        padding: 0 20px
+    .desktop-hidden-row
+        display: table-row
+        background: $accent
+        width: 100%
+        font-size: 20px
+        & th
+            padding: 5px 10px
+            font-family: '20Kopeek-Book', sans-serif
+            color: #ffffff
+            font-weight: 200
+            font-size: 18px
+    .last-guarantee-card
+        width: 100%
+        max-width: 420px
+    .guarantee-wrapper
+        padding-top: 32px
+    .guarantee-section
+        margin: 100px 0
+        min-height: 100%
+    .our-smi-card
+        width: 253px
+        min-height: 131px
+    .cost-img
+        margin-bottom: 25px
+    .main-menu-banner-subtitle
+        font-size: 16px
+    .form-title-big
+        font-size: 34px
+    .portfolio-card-thumb
+        height: 190px
+    .main-menu-list-item
+        display: none
+    .how-choose-title
+        font-size: 34px
+        & span
+            font-size: 45px
+    .how-choose-card-title
+        font-size: 22px
+
+    .our-team-descriptor-row
+        margin-top: 55px
+    .our-team-descriptor-text
+        font-size: 22px
+        line-height: 1.1
+    .our-team-descriptor-signa
+        margin-top: 35px
+
+    .designers-card-description
+         font-size: 14px
+    .designers-card-title
+        margin-bottom: 0
+        font-size: 34px
+        color: $accent
+        position: absolute
+        top: -50px
+    .first-designer-card
+        padding: 6px 100px 6px 6px
+        width: 315px
+        height: 155px
+        line-height: 1.3
+        & img
+            right: -65px
+            width: 100%
+            max-width: 182px
+    .second-designer-card
+        padding: 6px 65px 6px 6px
+        width: 278px
+        height: 155px
+        margin-left: 30px
+        line-height: 1.3
+        & img
+            right: -72px
+            width: 100%
+            max-width: 186px
+    .our-partners-title
+        font-size: 22px
+
+// ≥768px
++media-breakpoint-down(sm)
+    .form-title-big
+        font-size: 32px
+    .main-menu-contacts
+        display: none
+    .menu-burger
+        display: block
+
+    .main-menu-banner-area
+        font-size: 40px
+    .h1
+        font-size: 45px
+    .about-style-section
+        padding: 60px 0 90px 0
+    .about-style-image
+        margin-bottom: 20px
+    .consist-description
+        font-size: 16px
+
+    .blue-button
+        max-width: 585px
+        font-size: 16px
+    .portfolio-card-row
+        flex-direction: column
+    .gallery-button
+        margin: 15px 0
+        height: 60px
+
+    .portfolio-card-title
+        font-size: 45px
+    .portfolio-card-description
+        font-size: 16px
+    .portfolio-card
+        padding-bottom: 40px
+    .cost-section
+        padding-bottom: 80px
+    .steps-card
+        padding-left: 0
+    .steps-card-header-title
+        position: static
+        padding-left: 0
+    .steps-card-header
+        padding-left: 0
+    .steps-section
+        padding-top: 80px
+    .steps-row
+        margin-top: 60px
+
+    .table-header-title
+        font-size: 26px
+        padding: 0 10px
+    .table-comparison td
+        font-size: 12px
+    .comparison-section
+        padding-top: 70px
+    .desktop-hidden-row th
+        font-size: 14px
+    .guarantee-card
+        width: 100%
+        max-width: 100%
+        padding-left: 50px
+    .guarantee-card-description
+        font-size: 14px
+    .guarantee-card-title
+        font-size: 35px
+    .guarantee-section
+        margin: 80px 0
+    .contact-area-wrapper
+        margin-top: 50px
+    .contact-area a
+        margin-bottom: 10px
+    .our-smi-section
+        margin-top: 80px
+        margin-bottom: 80px
+    .privacy-row p
+        font-size: 15px
+    .main-menu-banner-description span
+        font-size: 44px
+    .our-smi-card
+        width: 220px
+        min-height: 100%
+    .form-button
+        margin-top: 10px
+    .mobile-show
+        display: flex !important
+    .mobile-hide
+        display: none !important
+    .check-box-label.mobile-show
+        padding-left: 25px
+    .check-box-label.mobile-show
+        padding-left: 25px
+        margin-left: 15px
+    .about-style-section
+        max-width: 492px
+    .consist-description-title
+        font-size: 22px
+    .portfolio-card-thumb
+        height: 215px
+    .steps-card
+        margin-top: 16px
+    .main-menu-banner-description-white
+        font-size: 38px
+    .how-start-choose-section
+        margin-bottom: 60px
+        max-width: 492px
+    .how-choose-title
+        font-size: 30px
+
+        padding-left: 30px
+        & span
+            font-size: 35px
+            top: -2px
+    .our-team-descriptor-text
+        margin-top: 20px
+    .our-team-descriptor-signa
+        max-width: 100%
+        margin-top: 20px
+    .mobile-row-reverse
+        flex-direction: column-reverse
+        display: flex
+    .designers-card-title
+        font-size: 32px
+        top: -40px
+    .designers-card-description
+        font-size: 12px
+    .first-designer-card
+        padding: 8px 80px 8px 8px
+        width: 257px
+        height: 157px
+        line-height: 1.3
+        & img
+            right: -55px
+            width: 100%
+            max-width: 154px
+    .second-designer-card
+        padding: 8px 85px 8px 8px
+        width: 257px
+        height: 141px
+        margin-left: 0
+        line-height: 1.3
+        margin-top: 60px
+
+        & img
+            right: -72px
+            width: 100%
+            max-width: 175px
+
+
+    .our-team-img
+        margin-bottom: 20px
+    .our-team-designers-row
+        margin-top: 60px
+    .bradcrumbs
+        padding-top: 100px
+// ≥576px
++media-breakpoint-down(xs)
+    .main-menu-banner-subtitle
+        padding: 10px 0 0 0
+    .main-header-slide
+        min-height: 690px
+    body label.check-box-label
+        align-items: flex-start
+    .mobile-menu li
+        font-size: 25px
+        margin-bottom: 10px
+
+    .main-menu-banner-area
+        top: 46vh
+    .main-menu-banner-area span
+        font-size: 21px
+        padding: 10px 15px
+        &:last-child
+            position: relative
+            top: -45px
+
+            z-index: 5
+            padding-top: 0
+
+        &:nth-child(5)
+            position: relative
+            top: -20px
+
+            z-index: 2
+
+        &:nth-child(1)
+            position: relative
+            top: 25px
+
+        &:nth-child(3)
+            position: relative
+            top: 3px
+
+            z-index: 3
+            padding-top: 3px
+    .main-menu-banner-buttons
+        flex-direction: column
+        margin-top: 0
+        & a
+            margin-top: 15px
+    .h2
+        font-size: 32px
+    .h1
+        font-size: 35px
+    .consist-row
+        padding-top: 45px
+        flex-direction: column
+        flex-wrap: wrap
+    .consist-description
+        padding-left: 70px
+    .consist-description-full
+        padding-left: 70px
+    .cost-p
+        padding-right: 0
+    .portfolio-card-title
+        font-size: 35px
+    .portfolio-card-row
+        margin-top: 30px
+    .gallery-button
+        height: 50px
+    .fancybox-caption__body
+        max-height: 170px
+        font-size: 12px
+    .table-comparison
+        display: none
+    .desktop-hidden
+        display: block
+    .contact-area a
+        font-size: 20px
+    .our-smi-card
+        width: 100%
+    .logo-description
+        color: #fff
+        font-size: 13px
+        margin-left: 9px
+        width: 160px
+        min-width: 160px
+    .consist-card
+        width: 230px
+        margin-bottom: 50px
+    .consist-title
+        top: -28px
+    .comparison-section
+        display: none
+    .guarantee-section
+        display: none
+    .contact-section
+        padding-top: 0
+
+    .guideline-section
+        padding: 100px 0 0 0
+    .contact-area-wrapper
+        margin-bottom: 50px
+
+    .main-header-slide
+        background-position: center top
+
+    .main-header-slide.slide-1
+        background-image: url('../img/1mob.jpg')
+    .main-header-slide.slide-2
+        background-image: url('../img/2mob.jpg')
+    .main-header-slide.slide-3
+        background-image: url('../img/3mob.jpg')
+
+    .main-header-slide.slide-4
+        background-image: url('../img/suvenir-img/1mob.jpg')
+    .main-header-slide.slide-5
+        background-image: url('../img/suvenir-img/2mob.jpg')
+    .main-header-slide.slide-6
+        background-image: url('../img/suvenir-img/3mob.jpg')
+
+
+    .our-smi-section
+        margin-top: 80px
+        margin-bottom: 25px
+    .copy
+        padding-top: 36px
+    .about-style-blue-area
+        font-size: 20px
+    .form-title-big
+        font-size: 20px
+
+    .portfolio-card-thumb
+        height: 185.48px
+    .arrow-line:after
+        position: absolute
+        right: -10px
+    .portfolio-card
+        max-width: 290px
+        margin: 0 auto
+    .consist-section
+        padding-bottom: 50px
+    .briff-section
+        margin-top: 40px
+    .upper-button
+        right: 20px
+        bottom: 30px
+    .mobile-show-button
+        display: flex
+        margin: 30px auto 10px
+    .hidden-mobile-gallery
+        display: none
+    .main-menu-banner-description-white
+        font-size: 28px
+    .how-choose-card
+        padding-left: 90px
+        position: relative
+        margin-top: 30px
+    .our-team-descriptor-text
+        font-size: 20px
+    .our-team-descriptor-signa
+        font-size: 16px
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

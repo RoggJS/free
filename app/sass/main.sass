@@ -1,0 +1,941 @@
+@import vars
+@import fonts
+@import libs
+
+::placeholder
+    color: #868686
+
+::selection
+    background-color: $accent
+    color: #ffffff
+
+input, textarea, select
+    outline: none
+    color: #bcbcbc
+
+    &:required:valid
+        border-color: #07807e
+
+body
+    font-size: 18px
+    min-width: 360px
+    position: relative
+    line-height: 1.3
+    font-family: '20Kopeek', sans-serif
+    font-weight: 400
+    overflow-x: hidden
+    color: $text
+
+p
+    line-height: 1.4
+
+.upper-button
+    background: url("../img/upper.svg")no-repeat center center
+    width: 35px
+    height: 35px
+    position: fixed
+    right: 40px
+    bottom: 40px
+    display: none
+    z-index: 9999
+
+.main-header-slide
+    min-height: 100%
+    height: 100vh
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center center
+
+    &:focus
+        outline: none
+
+.main-header-slider
+    position: relative
+
+.main-header
+    position: relative
+
+.main-menu
+    position: absolute
+    z-index: 1010
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+    height: 90px
+.main-menu-list
+    display: flex
+    list-style-type: none
+    padding: 0
+    margin: 0
+.main-menu-list-item
+    color: #fff
+    font-size: 15px
+    margin-left: 15px
+    transition: all ease-in .3s
+    &:hover
+        color: #2b59c3
+        text-decoration: none
+        transition: all ease-in .3s
+
+.main-menu-container
+    max-width: 1100px
+    width: 100%
+    height: 100%
+    margin: 0 auto
+    position: relative
+
+
+.logo-description
+    color: #fff
+    font-size: 14px
+    line-height: 14px
+    margin-left: 22px
+.logo
+    display: flex
+    align-items: center
+
+.main-menu-phone
+    display: flex
+    width: 204px
+    height: 36px
+    font-size: 16px
+    color: #ffffff
+    align-items: center
+    justify-content: center
+    border: 1px solid #ffffff
+    border-radius: 20px
+    text-align: center
+
+    &:hover
+        color: #ffffff
+        text-decoration: none
+.main-menu-phone.dark
+    border: 1px solid #000
+    &:hover
+        color: #000
+        text-decoration: none
+.main-menu-contacts
+    display: flex
+    align-items: center
+
+.main-menu-social
+    display: flex
+    align-items: center
+
+    & a
+        display: block
+        margin-left: 23px
+
+.main-menu
+    padding: 0 20px
+
+.menu-burger
+    background: url("../img/burger.png") no-repeat center center / cover
+    width: 30px
+    height: 18px
+    position: fixed
+    right: 30px
+    top: 32px
+    z-index: 1100
+    display: none
+
+.hidden-menu
+    height: 100vh
+    width: 0
+    position: fixed
+    z-index: 1100
+    top: 0
+    right: -100%
+    background-color: #fff
+    padding: 30px 40px
+    opacity: 1
+    transition: all 0.5s
+
+.show-menu
+    right: 0
+    width: 100%
+
+.close-button
+    background: url("../img/close.svg") no-repeat center center
+    width: 31px
+    height: 31px
+    display: block
+    position: absolute
+    right: 30px
+    top: 32px
+
+.hidden
+    display: none !important
+
+.mobile-menu
+    margin-top: 100px
+    padding: 0
+    list-style-type: none
+
+    & li
+        font-size: 35px
+        margin-bottom: 15px
+
+        & a
+            color: $text
+
+            &:hover
+                color: $text
+                text-decoration: none
+
+.no-scroll
+    overflow: hidden !important
+
+.mobile-menu-contact
+    font-size: 20px
+    margin-top: 30px
+
+    & a
+        color: $text
+        display: block
+
+.mobile-menu-social a
+    margin-right: 10px
+
+.hidden-menu-content
+    display: flex
+    flex-direction: column
+    border: 1px solid transparent
+    justify-content: space-between
+    height: 100%
+    padding-bottom: 60px
+
+.main-menu-banner-area
+    display: block
+    position: absolute
+    z-index: 1000
+    top: 30vh
+    padding: 0 20px
+
+.main-menu-banner-description
+    position: relative
+    & span
+        background: white
+        border-bottom-right-radius: 10px
+        border-top-right-radius: 10px
+        padding: 10px 25px
+        line-height: 1
+        font-size: 50px
+        font-family: '20Kopeek-Book', sans-serif
+    & span:nth-child(3)
+        padding-top: 0
+    & span:nth-child(5)
+        padding-top: 0
+    & span:nth-child(7)
+        padding-top: 0
+
+
+.main-menu-banner-description
+    & span:first-child
+        border-top-left-radius: 10px
+
+    & span:last-child
+        border-bottom-left-radius: 10px
+
+.button-main-style
+    display: flex
+    min-width: 215px
+    width: 215px
+    align-items: center
+    justify-content: center
+    color: $text
+    font-size: 18px
+    height: 60px
+    background: #ffffff
+    border-radius: 40px
+    transition: all 0.2s ease-in-out
+
+    &:hover
+        text-decoration: none
+        transition: all 0.2s ease-in-out
+        background: $accent
+        color: #ffffff
+.main-menu-banner-subtitle
+    font-family: '20Kopeek-Book', sans-serif
+    padding: 25px 0 10px 0
+    color: #ffffff
+    font-size: 26px
+
+.main-menu-banner-buttons
+    display: flex
+    max-width: 480px
+    justify-content: space-between
+    margin-top: 20px
+
+.modal-contact-form
+    width: 100%
+    max-width: 648px
+    padding: 50px
+
+.modal-title
+    font-size: 38px
+    padding-bottom: 30px
+
+.modal-form-wrapper
+    position: relative
+
+    & label
+        display: block
+        width: 100%
+
+.text-input
+    display: block
+    width: 100%
+    height: 71px
+    border: 1px solid #181818
+    box-sizing: border-box
+    border-radius: 10px
+    padding-left: 25px
+    color: $text
+
+body label.check-box-label
+    margin-top: 20px
+    display: block
+    align-items: center
+    padding-left: 25px
+    position: relative
+
+
+.checkbox-input
+    width: 18px
+    min-width: 18px
+    height: 18px
+    display: block
+    margin-right: 10px
+    position: absolute
+    left: 0
+
+.form-button
+    width: 228px
+    height: 71px
+    background: #2B59C3
+    border-radius: 40px
+    color: #ffffff
+    display: flex
+    border: 0
+    align-items: center
+    justify-content: center
+    &:focus
+        outline: none
+
+.about-style-section
+    padding: 100px 0 150px 0
+
+.h2
+    font-size: 38px
+    font-family: '20Kopeek-Book', sans-serif
+    line-height: 1.1
+    padding-bottom: 15px
+
+.h1
+    font-size: 55px
+    font-family: '20Kopeek-Book', sans-serif
+    line-height: 1
+
+.about-style-image
+    width: 100%
+    max-width: 735px
+
+.consist-section
+    padding-bottom: 100px
+
+.consist-row
+    padding-top: 65px
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    flex-wrap: wrap
+
+.cost-section
+    padding-bottom: 100px
+
+.consist-title
+    font-size: 45px
+    font-family: '20Kopeek-Book', sans-serif
+    position: absolute
+    top: -25px
+
+.consist-description
+    padding-left: 40px
+    font-size: 16px
+.md-wrapper
+    max-width: 390px
+.consist-card
+    position: relative
+    width: 160px
+    margin-bottom: 30px
+.consist-card.big
+    width: 262px
+.consist-description-full
+    font-size: 14px
+    padding-left: 40px
+    padding-top: 15px
+
+.consist-card-big
+    width: 300px
+    position: relative
+.consist-description-title
+    font-size: 26px
+    font-family: '20Kopeek-Book', sans-serif
+    margin-bottom: 15px
+.cost-p
+    padding-right: 60px
+.consist-description-text
+    font-size: 15px
+.blue-button
+    color: #ffffff
+    background: $accent
+    display: block
+    padding: 10px
+    border-radius: 5px
+    max-width: 406px
+
+    &:hover
+        color: #ffffff
+        text-decoration: none
+.briff-section
+    margin-top: 80px
+.cost-img
+    width: 100%
+    display: block
+    max-width: 734px
+.portfolio-card a
+    overflow: hidden
+    height: 228px
+    width: 100%
+    display: block
+.portfolio-card-thumb
+    width: 100%
+    margin: 0 auto
+    height: 228px
+    display: block
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+    transition: all ease-in .5s
+    overflow: hidden
+    &:hover
+        transform: scale(1.2)
+        transition: all ease-in-out .5s
+.gallery-img
+    display: block
+    width: 100%
+    margin: 10px auto
+.gallery-img.height-prew
+    height: 228px
+.portfolio-card
+    padding-bottom: 100px
+.portfolio-card.small
+    padding-bottom: 20px
+.portfolio-row-margin
+    margin-top: 20px
+.portfolio-card-row
+    margin-top: 40px
+    display: flex
+.portfolio-card-row.small
+    margin-top: 20px
+
+.portfolio-card-title
+    font-size: 55px
+.portfolio-card-title.small
+    font-size: 26px
+.portfolio-card-description.small
+    font-size: 16px
+.gallery-button
+    border: 1px solid #181818
+    box-sizing: border-box
+    border-radius: 40px
+    width: 231px
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 71px
+    color: #181818
+    margin-left: 80px
+
+    &:hover
+        color: #181818
+        text-decoration: none
+.logo-description.dark
+    color: #000
+.dark
+    color: #000
+.parallax-window
+    position: relative
+.show-more-button
+    width: 250px
+    height: 75px
+    display: flex
+    align-items: center
+    justify-content: center
+    border-radius: 40px
+    background: $accent
+    color: #ffffff
+    margin: 10px auto
+    cursor: pointer
+
+    &:hover
+        color: #ffffff
+        text-decoration: none
+
+.portfolio-section
+    font-size: 26px
+    font-family: '20Kopeek-Book', sans-serif
+
+.loadmore-area
+    display: none
+
+.guideline-section
+    padding: 100px 0 70px 0
+
+.guideline-img
+    display: block
+    width: 100%
+    max-width: 735px
+
+.blue-area
+    background: $accent
+    padding: 10px 10px 5px 10px
+    border-radius: 5px
+    margin-bottom: 15px
+
+    & .h3
+        color: #ffffff
+        font-family: '20Kopeek-Book', sans-serif
+        font-size: 26px
+        line-height: 1.4
+        padding-bottom: 10px
+
+    & p
+        color: #ffffff
+        line-height: 1.4
+.form-title-big
+    font-size: 55px
+    font-family: '20Kopeek-Book', sans-serif
+    margin-bottom: 60px
+    line-height: 1
+.form-subtitle
+    font-size: 26px
+    font-family: '20Kopeek-Book', sans-serif
+
+.form-row
+    margin-top: 24px
+
+    & label
+        display: block
+        width: 100%
+
+.steps-section
+    padding-top: 100px
+
+.steps-row
+    margin-top: 60px
+
+.steps-card-header
+    position: relative
+
+.steps-card-header-title
+    font-family: '20Kopeek-Book', sans-serif
+    font-size: 45px
+    margin-bottom: 20px
+
+.steps-card-header-description
+    font-size: 26px
+    font-family: '20Kopeek-Book', sans-serif
+    line-height: 1.1
+
+.steps-card
+    width: 100%
+    max-width: 170px
+
+.steps-card-description
+    font-size: 15px
+
+.steps-card-title
+    padding-bottom: 15px
+    position: relative
+.arrow-line:after
+    background: url("../img/arr.svg") no-repeat
+    height: 8px
+    width: 38px
+    display: block
+    content: ''
+    position: absolute
+    right: 0
+    top: 10px
+.mobile-show-button
+    display: none
+
+
+.comparison-section
+    padding-top: 100px
+.portfolio-section.padded
+    margin-top: 80px
+
+.left-table-title
+    background: $accent
+    font-family: '20Kopeek-Book', sans-serif
+    padding: 15px
+    font-size: 21px
+    color: #ffffff
+    font-weight: 300
+    vertical-align: top
+
+.border-radius-top
+    border-top-right-radius: 10px
+    border-top-left-radius: 10px
+
+.border-radius-bottom
+    border-bottom-right-radius: 10px
+    border-bottom-left-radius: 10px
+
+.table-comparison
+    width: 100%
+
+    & td
+        font-size: 15px
+        padding: 25px
+        vertical-align: top
+
+    & tr
+        border-bottom: 1px solid #2b59c382
+
+        &:last-child
+            border: 0
+
+.table-header-title
+    font-size: 36px
+    font-family: '20Kopeek-Book', sans-serif
+    padding: 0 30px
+    color: #868686
+
+
+.middle-column
+    border-left: 4px solid $accent
+    border-right: 4px solid $accent
+
+.table-header-title.middle-column-top
+    color: #2B59C3
+
+
+.middle-column-top
+    border-left: 4px solid $accent
+    border-right: 4px solid $accent
+    border-top: 4px solid $accent
+
+.middle-column-bottom
+    border-left: 4px solid $accent
+    border-right: 4px solid $accent
+    border-bottom: 4px solid $accent
+
+.desktop-hidden-row
+    display: none
+
+.desktop-hidden
+    display: none
+
+.comparison-mobile-title
+    background: $accent
+    font-size: 20px
+    padding: 5px 15px
+    border-radius: 5px
+    font-family: '20Kopeek-Book', sans-serif
+    color: #ffffff
+    margin-bottom: 15px
+
+.border-bottom-row
+    padding: 0 0 15px 0
+
+.comparison-mobile-subtitle
+    font-size: 32px
+    color: #868686
+    font-family: '20Kopeek-Book', sans-serif
+    padding-left: 20px
+
+.border-bottom
+    border-bottom: 0.5px solid #868686
+    width: 95%
+    margin: 15px auto 0
+
+.comparison-mobile-description
+    font-size: 15px
+
+.accent-color
+    color: $accent
+
+.comparison-mobile-item
+    margin-top: 20px
+
+.fancybox-caption__body
+    max-height: 50vh
+    overflow: auto
+    pointer-events: all
+    text-align: left
+    max-width: 940px
+    margin: 0 auto
+    font-size: 16px
+
+.guarantee-section
+    margin: 100px 0
+    min-height: 957px
+.h2.white
+    color: #ffffff
+
+.h1.white
+    color: #ffffff
+
+.guarantee-wrapper
+    padding-top: 300px
+
+.guarantee-card
+    color: #ffffff
+    width: 192px
+    position: relative
+    margin-bottom: 40px
+
+.guarantee-card-title
+    font-family: '20Kopeek-Book', sans-serif
+    font-size: 55px
+    position: absolute
+    left: 0
+    top: -20px
+
+.guarantee-card-description
+    font-size: 15px
+    line-height: 19px
+    padding-left: 45px
+
+.guarantee-row
+    margin-top: 60px
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    flex-wrap: wrap
+
+.contact-form-label
+    max-width: 445px
+
+.contact-area
+    margin-top: 20px
+
+.contact-area a
+    display: block
+    font-size: 26px
+    color: $text
+    margin-bottom: 15px
+    font-family: '20Kopeek-Book', sans-serif
+
+.our-smi-section
+    margin-top: 120px
+    margin-bottom: 30px
+
+
+.our-smi-card
+    background: $accent
+    border-radius: 10px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding: 15px
+    margin: 15px 15px
+    color: #ffffff
+    width: 255px
+    font-size: 16px
+
+    &:hover
+        color: #ffffff
+        text-decoration: none
+
+.smi-subtitle
+    display: block
+    font-size: 15px
+    padding-top: 20px
+
+.privacy-title a
+    font-size: 38px
+    text-decoration: underline
+    color: $text
+    padding-top: 90px
+    display: block
+    font-family: '20Kopeek-Book', sans-serif
+    padding-bottom: 90px
+.copy
+    padding-top: 90px
+.mobile-show
+    display: none !important
+
+
+.main-header-slide.slide-1
+    background-image: url('../img/1.jpg')
+.main-header-slide.slide-2
+    background-image: url('../img/2.jpg')
+.main-header-slide.slide-3
+    background-image: url('../img/3.jpg')
+
+
+.main-header-slide.slide-4
+    background-image: url('../img/suvenir-img/1.jpg')
+.main-header-slide.slide-5
+    background-image: url('../img/suvenir-img/2.jpg')
+.main-header-slide.slide-6
+    background-image: url('../img/suvenir-img/3.jpg')
+
+
+.main-menu-banner-description-white
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.15)
+    font-size: 55px
+    line-height: 1
+    color: #ffffff
+    margin-bottom: 0
+    font-family: '20Kopeek-Book',sans-serif
+
+
+.margin-top-25
+    margin-top: 25px
+.about-style-blue-area
+    font-size: 26px
+    color: #ffffff
+    font-family: '20Kopeek-Book', sans-serif
+.how-start-choose-section
+    margin-bottom: 120px
+.how-choose-row
+    margin-top: 60px
+.how-choose-title
+    font-size: 38px
+    line-height: 1.1
+    position: relative
+    padding-left: 45px
+    font-family: '20Kopeek-Book',sans-serif
+    margin-left: 10px
+    & span
+        font-size: 55px
+        display: block
+        position: absolute
+        left: 0
+        top: -15px
+.how-choose-card
+    padding-left: 90px
+    position: relative
+    margin-top: 50px
+    width: 100%
+    & img
+        position: absolute
+        left: 0
+        top: 0
+.how-choose-card-title
+    font-size: 26px
+    padding-bottom: 10px
+    font-family: '20Kopeek-Book', sans-serif
+.how-choose-marged-row
+    margin-left: 0px
+.consist-description-title.font-size-18
+    font-size: 18px
+.our-tem-section
+    margin-top: 100px
+.our-team-row
+    margin-top: 25px
+.our-team-row-title
+    font-size: 26px
+    margin-bottom: 25px
+    line-height: 1.1
+    font-family: '20Kopeek-Book',sans-serif
+.our-team-descriptor-row
+    margin-top: 100px
+.our-team-descriptor-text
+    font-size: 26px
+    line-height: 1.1
+    font-family: '20Kopeek-Book', sans-serif
+.our-team-descriptor-signa
+    margin-top: 160px
+    max-width: 260px
+.our-team-descriptor-img
+    width: 100%
+    max-width: 634px
+.our-team-designers-row
+    margin-top: 100px
+.designers-card
+    background: #2B59C3
+    border-radius: 5px
+    color: #ffffff
+
+    position: relative
+.designers-card-img
+    position: absolute
+    bottom: 0
+
+.designers-card-title
+    font-size: 38px
+    margin-bottom: 20px
+.first-designer-card
+    padding: 15px 165px 15px 15px
+    max-width: 505px
+    width: 100%
+    & img
+        right: -80px
+        width: 100%
+        max-width: 256px
+.second-designer-card
+    padding: 15px 83px 15px 15px
+    max-width: 445px
+    width: 100%
+    margin-left: 20px
+    & img
+        right: -115px
+        width: 100%
+        max-width: 261px
+.our-partners-section
+    margin-top: 100px
+.our-partners-title
+    font-size: 34px
+    font-weight: 400
+    margin-bottom: 40px
+.our-partners-area
+    display: flex
+    flex-wrap: wrap
+    align-items: flex-end
+    justify-content: center
+    & img
+        display: block
+        margin: 15px
+.our-team-img
+    display: block
+    width: 100%
+    max-width: 652px
+.video-wrapper
+    background: url("../img/zaglushka.jpg")no-repeat center center / cover
+    z-index: 99
+    cursor: pointer
+.bradcrumbs
+    padding-top: 140px
+    & a
+        display: block
+        font-style: normal
+        font-weight: normal
+        font-size: 20px
+        line-height: 30px
+        color: #868686
+        & img
+            margin-right: 10px
+.thank-section
+    margin-top: 80px
+.thank-img
+    width: 100%
+    display: block
+    max-width: 660px
+    margin: 10px auto
+.thank-row
+    margin-top: 40px
+.gray-link
+    font-weight: normal
+    font-size: 18px !important
+    line-height: 30px
+    color: #868686
+
+
+@import "media"
