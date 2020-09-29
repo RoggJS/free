@@ -112,7 +112,26 @@ $(function() {
 
 
 
+    $(window).scroll(function (){
+        let posY = window.scrollY; // сколько уже прокрутили
+        console.log(posY);
+        $('.part-3').hide();
+        if (posY > 1600 ){
+            $('.part-1').addClass('tn_active');
+        } else{
+            $('.part-1').removeClass('tn_active');
+        }
+        if ( posY > 1990){
+            $('.part-1').hide()
+            $('.part-2').hide()
+            $('.part-3').show();
+        } else{
+            $('.part-1').show()
+            $('.part-2').show()
+        }
 
+
+    });
 
 
 });
