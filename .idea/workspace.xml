@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c6a6e59d-f879-4f86-a2f7-8dc1b551bcde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/presentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presentation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="157" column="65" lean-forward="true" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="84" />
+            <state relative-caret-position="-13">
+              <caret line="157" column="65" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -48,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+            <state relative-caret-position="371">
+              <caret line="113" column="51" selection-start-line="113" selection-start-column="51" selection-end-line="113" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -76,14 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.main-menu-banner-subtitle</find>
-      <find>handwi</find>
-      <find>how-choose-card-title</find>
-      <find>.our-team-img</find>
-      <find>наша</find>
-      <find>Гарантия качества:</find>
-      <find>transition: all ease-in .3s</find>
-      <find>portfolio-card-thumb</find>
       <find>Более</find>
       <find>main-menu-phone</find>
       <find>slide-4</find>
@@ -105,6 +93,14 @@
       <find>.portfolio-card</find>
       <find>steps-card-header-title</find>
       <find>.steps-card-header-title</find>
+      <find>faq__input</find>
+      <find>faq__label</find>
+      <find>faq</find>
+      <find>experts__item_plus</find>
+      <find>experts__item</find>
+      <find>faq__item</find>
+      <find>experts__row align-items-center row</find>
+      <find>opened</find>
       <find>Как мы работаем?</find>
     </findStrings>
     <replaceStrings>
@@ -128,6 +124,8 @@
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/app/presentation.html" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/style.css" />
         <option value="$PROJECT_DIR$/app/js/_custom.js" />
       </list>
     </option>
@@ -223,18 +221,18 @@
       <workItem from="1601454920016" duration="1106000" />
       <workItem from="1601464808566" duration="366000" />
       <workItem from="1601472608468" duration="673000" />
-      <workItem from="1601478294743" duration="2478000" />
+      <workItem from="1601478294743" duration="5585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120619000" />
+    <option name="totallyTimeSpent" value="123726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -464,10 +462,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1035" column="2" selection-start-line="1035" selection-start-column="2" selection-end-line="1035" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="2288" column="30" selection-start-line="2288" selection-start-column="30" selection-end-line="2288" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/presentation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="157" column="65" lean-forward="true" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="84" />
+        <state relative-caret-position="-13">
+          <caret line="157" column="65" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -491,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="125" column="28" selection-start-line="125" selection-start-column="28" selection-end-line="125" selection-end-column="28" />
+        <state relative-caret-position="371">
+          <caret line="113" column="51" selection-start-line="113" selection-start-column="51" selection-end-line="113" selection-end-column="51" />
         </state>
       </provider>
     </entry>

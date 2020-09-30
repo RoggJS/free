@@ -111,8 +111,8 @@ $(function() {
     });
 
 
-    let currentItem = $('.part-1').offset().top - 80;
-    let destItem = $('.part-2').offset().top - 90;
+    let currentItem = $('.part-1').offset().top - 100;
+    let destItem = $('.part-2').offset().top - 110;
 
     $(window).scroll(function (){
 
