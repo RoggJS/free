@@ -111,27 +111,34 @@ $(function() {
     });
 
 
+    let currentItem = $('.part-1').offset().top - 80;
+    let destItem = $('.part-2').offset().top - 90;
 
     $(window).scroll(function (){
+
         let posY = window.scrollY; // сколько уже прокрутили
-        console.log(posY);
         $('.part-3').hide();
-        if (posY > 1600 ){
+        if (posY > currentItem ){
             $('.part-1').addClass('tn_active');
         } else{
             $('.part-1').removeClass('tn_active');
         }
-        if ( posY > 1990){
-            $('.part-1').hide()
-            $('.part-2').hide()
+        if ( posY > destItem ){
+            $('.part-1').hide();
+            $('.part-2').hide();
             $('.part-3').show();
         } else{
-            $('.part-1').show()
-            $('.part-2').show()
+            $('.part-1').show();
+            $('.part-2').show();
         }
 
 
     });
+
+
+
+
+
 
 
 });

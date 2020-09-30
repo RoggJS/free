@@ -154,18 +154,21 @@
     <div class="container">
 
         <div class="row align-items-center">
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <img src="img/presentation-img/part1.png" class="scrolled-img part-1" alt="part1">
+
+
+                <div class="hidden-area-image">
+                    <img src="img/presentation-img/part3.png" alt="part3">
+                </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <div class="h1 wow fadeInUpBig">
                     Как мы работаем?
                 </div>
                 
-                <div class="hidden-area-image">
-                    <img src="img/presentation-img/part3.png" alt="part3">
-                </div>
+
 
                 <div class="how-work-scroll-description">
 
@@ -187,11 +190,11 @@
 
 
         <div class="row align-items-center scroll-second-row">
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <img src="img/presentation-img/part2.png" class="scrolled-img part-2" alt="part2">
                 <img src="img/presentation-img/part3.png" class="scrolled-img part-3" alt="part2">
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
 
                 <div class="how-work-scroll-description">
                     <p>
@@ -770,12 +773,12 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-5">
+            <div class="col-md-5">
                 <img src="img/wow_compose.gif" class="wow-compose-img" alt="wowcompose">
 
 
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <p class="wow-section-p">
                     Вау-эффект в каждом продукте. Анимированный логотип, видеовставки, 3D-анимация все это привлекает к
                     себе внимание и надолго остаются в памяти. Это как раз тот результат, который вам нужен!
@@ -796,7 +799,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="h2">
                     Оставить заявку
                 </div>
@@ -823,7 +826,8 @@
                     <button class="form-button form-xs margin-top-25">Оставить заявку</button>
                 </form>
             </div>
-            <div class="col-md-6">
+
+            <div class="col-lg-6">
                 <div class="contact-area-wrapper">
                     <div class="h2">
                         Контакты
@@ -941,6 +945,12 @@
 <script>
     new WOW().init();
 
+
+    $(document).keyup(function(e) {
+        if (e.key === "Escape") { // escape key maps to keycode '27'
+         $('.fancybox-close-small').click()
+        }
+    });
 </script>
 
 
