@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6a6e59d-f879-4f86-a2f7-8dc1b551bcde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/presentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+            <state relative-caret-position="581">
+              <caret line="114" column="48" selection-start-line="114" selection-start-column="48" selection-end-line="114" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -91,7 +87,6 @@
       <find>Подготовка</find>
       <find>.steps-card-description</find>
       <find>steps-row row align-items-start</find>
-      <find>scrolled-img</find>
       <find>.our-smi-section</find>
       <find>Вау-эффект</find>
       <find>.portfolio-card</find>
@@ -106,6 +101,7 @@
       <find>experts__row align-items-center row</find>
       <find>opened</find>
       <find>Как мы работаем?</find>
+      <find>scrolled-img</find>
     </findStrings>
     <replaceStrings>
       <replace>upakovka@free-creative.com</replace>
@@ -227,12 +223,12 @@
       <workItem from="1601472608468" duration="673000" />
       <workItem from="1601478294743" duration="5964000" />
       <workItem from="1601527935259" duration="613000" />
-      <workItem from="1601542158572" duration="247000" />
+      <workItem from="1601542158572" duration="977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124965000" />
+    <option name="totallyTimeSpent" value="125695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -517,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+        <state relative-caret-position="581">
+          <caret line="114" column="48" selection-start-line="114" selection-start-column="48" selection-end-line="114" selection-end-column="48" />
         </state>
       </provider>
     </entry>
