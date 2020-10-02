@@ -54,8 +54,14 @@ $(function() {
 
 //show more
 
+        if (document.documentElement.clientWidth < 577 ) {
+            var numToShow = 3;
+        } else {
+            var numToShow = 9;
+        }
+
         var list = $("#portfolioList .portfolio-item-counter");
-        var numToShow = 9;
+
         var button = $("#showMoreButton");
         var numInList = list.length;
         list.hide();
