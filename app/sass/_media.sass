@@ -54,7 +54,10 @@
         margin-top: 20px
     .display-none
         display: none
-
+    .merchant-slider-image
+        height: 450px
+    .merchant-slider-item-left-side
+        font-size: 16px
 
 // ≥992px
 +media-breakpoint-down(md)
@@ -263,6 +266,10 @@
         height: 60px
     .merchant-slider-section
         margin-top: 80px
+    .merchant-slider-image
+        height: 400px
+
+
 // ≥768px
 +media-breakpoint-down(sm)
     .main-menu-banner-description span
@@ -456,6 +463,19 @@
         margin-right: 15px
     .consist-description.small
         width: 100%
+    .merchant-slider-image
+        height: 190px
+    .merchant-slider-item-left-side
+        height: 190px
+        flex-direction: column-reverse
+        justify-content: flex-start
+    .merchant-slider-item-signature
+        font-size: 28px
+        padding-bottom: 20px
+    .merch-slider-navigator
+        bottom: 153px
+        left: 80px
+
 // ≥576px
 +media-breakpoint-down(xs)
     .steps-card-header-title img
@@ -658,8 +678,39 @@
         height: 200px
         width: 100%
         display: block
-
-
+    .merchant-slider-image
+        height: 150px
+    .merchant-slider-item-left-side
+        height: 190px
+        flex-direction: column-reverse
+        justify-content: flex-start
+    .merchant-slider-item-signature
+        font-size: 28px
+        padding-bottom: 20px
+    .merch-slider-navigator
+        top: -20px
+        left: 50%
+        width: 250px
+        margin-left: -106px
+    .prev-merch
+        display: block
+        cursor: pointer
+        margin-right: -20px
+        width: 120px
+        height: 40px
+        & img
+            width: 100%
+            height: 100%
+            object-fit: contain
+    .next-merch
+        display: block
+        cursor: pointer
+        width: 120px
+        height: 40px
+        & img
+            width: 100%
+            height: 100%
+            object-fit: contain
 /*==========  Mobile First  ==========*/
 
 // ≤576px

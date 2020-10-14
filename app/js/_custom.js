@@ -17,6 +17,26 @@ $(function() {
         accessibility: false
     });
 
+//1 фото в ширину, слайдер
+    $('.merchant-slider').slick({
+        prevArrow: $('.prev-merch'),
+        nextArrow: $('.next-merch'),
+        arrows: true,
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 6000,
+        pauseOnHover: false,
+        swipe: true,
+        touchMove: false,
+        accessibility: false
+    });
+
+
+
 //smooth scroll
     $(".navigate-btn").on("click", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
