@@ -42,6 +42,18 @@
         margin: 10px auto
     .our-partners-title
         font-size: 30px
+    .about-merchant-image
+        max-width: 478px
+    .about-merchant-description
+        padding: 12px
+        & p
+            max-width: 380px
+            font-size: 21px
+            line-height: 110%
+    .why-need-merch-section
+        margin-top: 20px
+    .display-none
+        display: none
 
 
 // ≥992px
@@ -222,6 +234,35 @@
         & img
             width: 100%
             max-width: 433px
+    .about-merchant-section
+        padding-top: 80px
+        padding-bottom: 60px
+    .about-merchant-image
+        max-width: 400px
+        right: -100px
+    .about-merchant-description p
+        font-size: 18px
+        line-height: 1.2
+    .about-merchant-subtitle
+        font-size: 18px
+        line-height: 120%
+    .why-need-merch-section
+        margin-bottom: 80px
+    .why-need-card-title-row
+        position: absolute
+        max-width: 361px
+        left: 0
+    .why-need-card
+        position: relative
+    .why-need-card-title-text
+        font-size: 22px
+        line-height: 110%
+    .why-need-card-image
+        margin-right: 20px
+        width: 45px
+        height: 60px
+    .merchant-slider-section
+        margin-top: 80px
 // ≥768px
 +media-breakpoint-down(sm)
     .main-menu-banner-description span
@@ -387,13 +428,39 @@
     .steps-presentation .steps-card-header-title img
         position: relative
         top: 0
+    .about-merchant-description p
+        max-width: 300px
+        font-size: 16px
+    .about-merchant-image
+        max-width: 320px
+    .about-merchant-subtitle
+        font-size: 16px
+        max-width: 320px
+    .why-need-card-title-row
+        position: static
+        max-width: 361px
 
-
+    .why-need-card
+        position: relative
+    .why-need-card-title-text
+        font-size: 18px
+        line-height: 110%
+    .why-need-row
+        flex-direction: column
+    .why-need-card.right-card
+        margin-top: 50px
+    .why-need-card-title-bottom
+        font-size: 14px
+        min-width: 10px
+    .why-need-card-title-bottom.margin-right
+        margin-right: 15px
+    .consist-description.small
+        width: 100%
 // ≥576px
 +media-breakpoint-down(xs)
     .steps-card-header-title img
-        max-width: 290px
-        margin: 10px auto 50px
+        max-width: 90px
+
     .main-menu-banner-subtitle
         padding: 10px 0 0 0
     .main-header-slide
@@ -446,7 +513,7 @@
         flex-direction: column
         flex-wrap: wrap
     .consist-description
-        padding-left: 70px
+        padding-left: 50px
     .consist-description-full
         padding-left: 70px
     .cost-p
@@ -515,7 +582,12 @@
         background-image: url('../img/presentation-img/2mob.jpg')
     .main-header-slide.slide-9
         background-image: url('../img/presentation-img/3mob.jpg')
-
+    .main-header-slide.slide-10
+        background-image: url('../img/merch-img/1mob.jpg')
+    .main-header-slide.slide-11
+        background-image: url('../img/merch-img/2mob.jpg')
+    .main-header-slide.slide-12
+        background-image: url('../img/merch-img/3mob.jpg')
 
     .our-smi-section
         margin-top: 80px
@@ -557,6 +629,35 @@
         font-size: 20px
     .our-team-descriptor-signa
         font-size: 16px
+    .about-merchant-description
+        padding-top: 100px
+        margin-left: 0
+    .about-merchant-description p
+        max-width: 100%
+        font-size: 16px
+    .about-merchant-image
+        object-fit: contain
+        position: relative
+        right: 0
+        top: 90px
+        width: 241px
+        height: 271px
+        margin: -90px auto 0
+    .why-need-card-title-row
+        flex-direction: column
+    .why-need-card-title-bottom.margin-right
+        margin-bottom: 20px
+    .why-need-card-title-row
+        display: flex
+        max-width: 150px
+        width: 100%
+    .consist-card.big
+        width: 100%
+    .portfolio-card a
+        overflow: hidden
+        height: 200px
+        width: 100%
+        display: block
 
 
 /*==========  Mobile First  ==========*/
