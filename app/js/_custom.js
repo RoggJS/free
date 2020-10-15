@@ -43,8 +43,8 @@ $(function() {
         event.preventDefault();
         $('.hidden-menu').removeClass('show-menu');
         $('.menu-burger').toggleClass('hidden');
-        var id  = $(this).attr('href'),
-            top = $(id).offset().top;
+        let id  = $(this).attr('href');
+          let  top = $(id).offset().top;
         //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({scrollTop: top}, 1500);
     });
@@ -160,6 +160,7 @@ $(function() {
 
 
     });
+
 
 
 
