@@ -145,8 +145,22 @@
             Что такое мерч?
         </div>
 
+
+
+
         <div class="about-merchant-row">
-            <img src="img/merch-img/merch.png" class="about-merchant-image wow fadeIn" data-wow-delay="1s" alt="image">
+
+
+
+            <div class="img-magnifier-container">
+                <img id="myimage" src="img/merch-img/merch.png" width="574" height="788">
+            </div>
+
+
+            <img src="img/merch-img/merch.png" class="about-merchant-image " alt="image">
+
+
+
             <div class="about-merchant-description">
                 <p>
                     Мерч (Merch) – это сленговый термин, который используется в сфере ритейла и в быту, для определения
@@ -916,6 +930,52 @@
 </section>
 
 
+<section class="form-section wow fadeInUp padded" >
+    <div class="container">
+        <div class="h2">
+            Стать нашим клиентом
+        </div>
+        <form action="">
+            <div class="row form-row">
+                <div class="col-md-4">
+                    <label>
+                        <input class="text-input" type="text" placeholder="Ваше Имя">
+                    </label>
+                </div>
+
+                <div class="col-md-4">
+                    <label>
+                        <input class="text-input" type="text" placeholder="+7 (999) 999-99-99">
+                    </label>
+                </div>
+
+                <label class="check-box-label mobile-show">
+                    <input class="checkbox-input" type="checkbox">
+                    <span class="checkbox-description">
+                Я принимаю  <a href="privacy.html">условия передачи персональных данных</a>
+            </span>
+                </label>
+
+                <div class="col-md-4">
+                    <button class="form-button form-xs padded"> Оставить заявку</button>
+                </div>
+
+
+            </div>
+            <label class="check-box-label mobile-hide">
+                <input class="checkbox-input" type="checkbox">
+                <span class="checkbox-description">
+                Я принимаю  <a href="privacy.html">условия передачи персональных данных</a>
+            </span>
+            </label>
+
+        </form>
+    </div>
+</section>
+
+
+
+
 <section class="our-tem-section" id="ourTeam">
 
     <div class="container">
@@ -960,7 +1020,7 @@
 
         <div class="row our-team-descriptor-row flex-row-reverse">
             <div class="col-md-7">
-                <img class="our-team-descriptor-img" src="img/team.gif" alt="">
+                <img class="our-team-descriptor-img" src="img/merch-img/merch.gif" alt="merch gif">
             </div>
             <div class="col-md-5 mobile-row-reverse">
                 <div class="our-team-descriptor-text">
@@ -1030,20 +1090,18 @@
             <div><img src="img/partners/8.jpg" alt=""></div>
             <div><img src="img/partners/4.jpg" alt=""></div>
             <div><img src="img/partners/3.jpg" alt=""></div>
-            <div><img src="img/partners/10.jpg" alt=""></div>
             <div><img src="img/partners/9.jpg" alt=""></div>
-
-
+            <div><img src="img/partners/12.png" alt=""></div>
             <div><img src="img/partners/1.jpg" alt=""></div>
-            <div><img src="img/partners/2.jpg" alt=""></div>
-
-
+            <div><img src="img/partners/13.jpg" alt=""></div>
+            <div><img src="img/partners/14.jpg" alt=""></div>
             <div><img src="img/partners/5.jpg" alt=""></div>
+            <div><img src="img/partners/15.jpg" alt=""></div>
 
-            <div><img src="img/partners/7.jpg" alt=""></div>
+
+            <div><img src="img/partners/16.jpg" alt=""></div>
 
 
-            <div><img src="img/partners/11.jpg" alt=""></div>
 
         </div>
 
@@ -1057,7 +1115,7 @@
 <section class="steps-section wow fadeIn" id="howWeWorkSection">
     <div class="container">
         <div class="h1 wow fadeInUp">
-            Этапы создания <br> сувенирной продукции
+            Этапы создания мерча
         </div>
         <div class="steps-row row">
             <div class="col-md-4 col-6 wow fadeIn" data-wow-delay=".1s">
@@ -1130,7 +1188,7 @@
             <div class="col-lg-2 col-md-4 col-6 wow fadeIn" data-wow-delay=".5s">
                 <div class="steps-card">
                     <div class="steps-card-title arrow-line">
-                        Брендируем мерч
+                        Брендируем <br> мерч
                     </div>
                     <div class="steps-card-description">
                         Переносим корпоративный брендинг на мерч, дополняем дизайн креативными решениями, которые
@@ -1337,7 +1395,7 @@
     <div class="container">
         <div class="guarantee-wrapper">
             <div class="h1 white">
-                Гарантия качества: <br>5 фундаментальных преимуществ <br>
+                Гарантия качества: 5 фундаментальных преимуществ
                 работать с нами
             </div>
         </div>
@@ -1645,10 +1703,10 @@
 <section class="form-section wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
     <div class="container">
         <div class="h2">
-            Оставьте заявку на разработку вашего продукта
+            Если вы не нашли подходящее изделие
         </div>
         <div class="form-subtitle">
-            Наши эксперты свяжутся с вами в ближайшее время
+            Оставьте заявку и наши менеджеры помогут в выборе <br> подходящего изделия
         </div>
         <form action="">
             <div class="row form-row">
@@ -1918,6 +1976,7 @@
 
 
 <script src="js/scripts.min.js"></script>
+
 <script>
     new WOW().init();
 
@@ -1939,8 +1998,21 @@
             parent.addClass('active');
             parent.find('.faq-data').slideDown(300)
         }
-    })
+    });
+
+    $(document).keyup(function(e) {
+        if (e.key === "Escape") { // escape key maps to keycode '27'
+            $('.fancybox-close-small').click()
+        }
+    });
 </script>
+
+<script>
+    /* Initiate Magnify Function
+    with the id of the image, and the strength of the magnifier glass:*/
+    magnify("myimage", 2);
+</script>
+
 
 
 </body>

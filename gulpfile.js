@@ -44,11 +44,14 @@ gulp.task('styles', function() {
 gulp.task('scripts', function() {
 	return gulp.src([
 		//'node_modules/jquery/dist/jquery.min.js', // Optional jQuery plug-in (npm i --save-dev jquery)
+
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/slick/slick.min.js',
 		'app/libs/wow/wow.min.js',
 		'app/libs/fancybox/jquery.fancybox.min.js',
 		'app/libs/parallax/parallax.min.js',
+		'app/libs/zoom/zoom.js',
+
 		'app/js/_custom.js', // Custom scripts. Always at the end
 		])
 	.pipe(concat('scripts.min.js'))

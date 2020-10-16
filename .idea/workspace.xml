@@ -4,11 +4,13 @@
     <list default="true" id="c6a6e59d-f879-4f86-a2f7-8dc1b551bcde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/merch-img/merch.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/merch-img/merch.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/merch.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/merch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +21,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1617">
+              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/merch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="1690" column="16" selection-start-line="1690" selection-start-column="16" selection-end-line="1690" selection-end-column="27" />
+            <state relative-caret-position="281">
+              <caret line="1397" column="64" selection-start-line="1397" selection-start-column="64" selection-end-line="1397" selection-end-column="64" />
               <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -50,31 +71,8 @@
                 <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#11;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#11;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#13;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="165" selection-start-line="165" selection-end-line="165" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/scripts.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,56 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="1206" selection-start-line="1206" selection-end-line="1208" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="274" column="24" selection-start-line="274" selection-start-column="24" selection-end-line="274" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/styles.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="5595" column="59" selection-start-line="5595" selection-start-column="59" selection-end-line="5595" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="177" column="47" selection-start-line="177" selection-start-column="47" selection-end-line="177" selection-end-column="65" />
+            <state relative-caret-position="407">
+              <caret line="211" column="22" selection-start-line="211" selection-end-line="211" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/footer.php">
+        <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#1537#1557#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="529">
+              <caret line="771" column="23" selection-start-line="771" selection-start-column="23" selection-end-line="771" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -141,21 +100,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.logo-description</find>
-      <find>showMoreButton</find>
-      <find>@</find>
-      <find>programs</find>
-      <find>.people__item_content</find>
-      <find>bonus_content-v2 row</find>
-      <find>13</find>
-      <find>steps-card-header-title</find>
-      <find>slide-4</find>
-      <find>about-merchant</find>
-      <find>&lt;form</find>
-      <find>about-merchant-description</find>
-      <find>.main-header-slide.slide-7</find>
-      <find>.consist-row</find>
-      <find>consist-card</find>
       <find>consist-row</find>
       <find>.consist-description</find>
       <find>.contact-form-row</find>
@@ -171,6 +115,21 @@
       <find>.gift-test</find>
       <find>.registration-section</find>
       <find>red-</find>
+      <find>.header-banner</find>
+      <find>.call</find>
+      <find>.bonus_content-v--price</find>
+      <find>bonus_content-v--price</find>
+      <find>.main-menu-list-item</find>
+      <find>.main-menu-container</find>
+      <find>form-button</find>
+      <find>.main-menu-list-ite</find>
+      <find>about-merchant-row</find>
+      <find>портфолио</find>
+      <find>about-merchant-image</find>
+      <find>img/team.gif</find>
+      <find>modal-title</find>
+      <find>Гарантия качества:</find>
+      <find>.main-menu-banner-area</find>
     </findStrings>
     <replaceStrings>
       <replace>upakovka@free-creative.com</replace>
@@ -185,32 +144,41 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="D:/DOWNLOADS/Chrome/simple-parallax-scrolling-tutorial-s/index.html" />
         <option value="D:/DOWNLOADS/Chrome/parallax.js-2.0.0-alpha/test/index.html" />
-        <option value="$PROJECT_DIR$/app/packaging.html" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/firm-style.html" />
         <option value="$PROJECT_DIR$/app/thank.html" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/style.css" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/wp-config 2.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/footer 2.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/common.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/style 2.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/index 2.php" />
         <option value="$PROJECT_DIR$/app/souvenir.html" />
         <option value="$PROJECT_DIR$/app/presentation.html" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/styles.min.css" />
-        <option value="$PROJECT_DIR$/app/js/_custom.js" />
-        <option value="$PROJECT_DIR$/app/merch.html" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/styles.min.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/thenx.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/footer.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/styles.min.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/index 2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/style.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/light-landing.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/lend2.php" />
+        <option value="$PROJECT_DIR$/app/news.html" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/custom.js" />
+        <option value="$PROJECT_DIR$/app/news-1.html" />
+        <option value="$PROJECT_DIR$/app/packaging.html" />
+        <option value="$USER_HOME$/Desktop/1/index.html" />
+        <option value="$PROJECT_DIR$/app/js/_custom.js" />
+        <option value="D:/DOWNLOADS/Chrome/demo6/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/libs/zoom/zoom.js" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/merch.html" />
+        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1922" />
     <option name="height" value="739" />
@@ -220,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,12 +210,26 @@
               <item name="free2" type="b2602c69:ProjectViewProjectNode" />
               <item name="free2" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="free2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="zoom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="free2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,18 +295,20 @@
       <workItem from="1601890094133" duration="99000" />
       <workItem from="1602666979669" duration="24925000" />
       <workItem from="1602739847482" duration="700000" />
-      <workItem from="1602762766930" duration="7140000" />
+      <workItem from="1602762766930" duration="11163000" />
+      <workItem from="1602823656412" duration="5604000" />
+      <workItem from="1602832904667" duration="16215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164091000" />
+    <option name="totallyTimeSpent" value="189933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -352,24 +335,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/../Free/app/js/_custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/DOWNLOADS/Chrome/parallax-background-with-plugin-jquery/index.html" />
-    <entry file="file://$PROJECT_DIR$/app/libs/jquery/dist/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/parallax/jquery.parallax.min.js" />
     <entry file="file://D:/DOWNLOADS/Chrome/parallax.js-1.5.0/bower.json" />
     <entry file="file://D:/DOWNLOADS/Chrome/simple-parallax-scrolling-tutorial-s/index.html" />
@@ -390,16 +355,6 @@
           <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="91" selection-end-column="10" />
           <folding>
             <element signature="n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/packaging.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25998">
-          <caret line="1238" column="68" selection-start-line="1238" selection-start-column="8" selection-end-line="1238" selection-end-column="68" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -451,28 +406,145 @@
         <state relative-caret-position="-9457" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/styles.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://D:/DOWNLOADS/firefox/stylesheet.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/style.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/wp-config.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/wp-config 2.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/footer 2.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/common.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/style 2.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index 2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/styles.min.css" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../___ohota/app/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="86" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/_libs.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../___ohota/app/hunting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="166" selection-start-line="166" selection-end-line="312" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/thenx.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/footer.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/styles.min.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/style.css" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/header.php" />
-    <entry file="file://$PROJECT_DIR$/app/souvenir.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index 2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/light-landing.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/lend2.php" />
+    <entry file="file://$PROJECT_DIR$/app/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="119" column="11" selection-start-line="119" selection-start-column="11" selection-end-line="122" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="235" column="136" selection-start-line="235" selection-start-column="136" selection-end-line="235" selection-end-column="136" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/news-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="340" column="49" selection-start-line="340" selection-start-column="49" selection-end-line="340" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="56" selection-start-line="56" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/scripts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24315">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/DOWNLOADS/Chrome/demo6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/zoom/zoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/packaging.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22974">
+          <caret line="1094" column="39" lean-forward="true" selection-start-line="1094" selection-start-column="10" selection-end-line="1094" selection-end-column="39" />
+          <folding>
+            <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/souvenir.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
           <caret line="2121" column="4" selection-start-line="2121" selection-end-line="2123" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -549,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presentation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="718" column="32" selection-start-line="718" selection-start-column="32" selection-end-line="718" selection-end-column="63" />
+        <state relative-caret-position="525">
+          <caret line="952" selection-start-line="952" selection-end-line="956" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -573,96 +645,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index 2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1354" column="55" selection-start-line="1354" selection-start-column="40" selection-end-line="1354" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/styles.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="5258" column="17" selection-start-line="5258" selection-end-line="5258" selection-end-column="17" />
-          <folding>
-            <element signature="e#99875#101149#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../___ohota/app/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="86" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/_libs.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/scripts.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../___ohota/app/hunting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="166" selection-start-line="166" selection-end-line="312" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1206" selection-start-line="1206" selection-end-line="1208" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="274" column="24" selection-start-line="274" selection-start-column="24" selection-end-line="274" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/merch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="1690" column="16" selection-start-line="1690" selection-start-column="16" selection-end-line="1690" selection-end-column="27" />
+        <state relative-caret-position="281">
+          <caret line="1397" column="64" selection-start-line="1397" selection-start-column="64" selection-end-line="1397" selection-end-column="64" />
           <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -688,43 +677,23 @@
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#11;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#11;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#13;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/styles.min.css">
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="5595" column="59" selection-start-line="5595" selection-start-column="59" selection-end-line="5595" selection-end-column="59" />
+        <state relative-caret-position="407">
+          <caret line="211" column="22" selection-start-line="211" selection-end-line="211" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php">
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="177" column="47" selection-start-line="177" selection-start-column="47" selection-end-line="177" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/thenx.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#1537#1557#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="529">
+          <caret line="771" column="23" selection-start-line="771" selection-start-column="23" selection-end-line="771" selection-end-column="23" />
         </state>
       </provider>
     </entry>
