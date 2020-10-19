@@ -4,13 +4,18 @@
     <list default="true" id="c6a6e59d-f879-4f86-a2f7-8dc1b551bcde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/merch-img/merch.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/merch-img/merch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/merch-img/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/merch-img/slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/merch-img/slide3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/merch-img/slide4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/portfolio-merch/1-vgk-new/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/portfolio-merch/1-vgk-new/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/portfolio-merch/1-vgk-new/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/portfolio-merch/1-vgk-new/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/portfolio-merch/1-vgk-new/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/portfolio-merch/1-vgk-new/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/merch.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/merch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,28 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/merch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="1397" column="64" selection-start-line="1397" selection-start-column="64" selection-end-line="1397" selection-end-column="64" />
+            <state relative-caret-position="92">
+              <caret line="144" column="26" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="26" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
@@ -70,7 +57,6 @@
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#10;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#11;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#11;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#section#13;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -79,19 +65,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+        <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="211" column="22" selection-start-line="211" selection-end-line="211" selection-end-column="22" />
+            <state relative-caret-position="-2667">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/libs/zoom/zoom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="1316" column="20" selection-start-line="1316" selection-start-column="20" selection-end-line="1316" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="771" column="23" selection-start-line="771" selection-start-column="23" selection-end-line="771" selection-end-column="23" />
+            <state relative-caret-position="455">
+              <caret line="832" column="8" selection-start-line="832" selection-start-column="8" selection-end-line="832" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -100,10 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>consist-row</find>
-      <find>.consist-description</find>
-      <find>.contact-form-row</find>
-      <find>.steps-card-header-title img</find>
       <find>merchant-slider-item-left-side</find>
       <find>.steps-card-header-title</find>
       <find>.top</find>
@@ -129,7 +129,11 @@
       <find>img/team.gif</find>
       <find>modal-title</find>
       <find>Гарантия качества:</find>
+      <find>slide3</find>
       <find>.main-menu-banner-area</find>
+      <find>news-page-subtitle</find>
+      <find>.page-subtitle</find>
+      <find>Что такое мерч?</find>
     </findStrings>
     <replaceStrings>
       <replace>upakovka@free-creative.com</replace>
@@ -168,17 +172,17 @@
         <option value="$PROJECT_DIR$/app/news-1.html" />
         <option value="$PROJECT_DIR$/app/packaging.html" />
         <option value="$USER_HOME$/Desktop/1/index.html" />
-        <option value="$PROJECT_DIR$/app/js/_custom.js" />
         <option value="D:/DOWNLOADS/Chrome/demo6/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/libs/zoom/zoom.js" />
+        <option value="$PROJECT_DIR$/app/js/_custom.js" />
+        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/merch.html" />
-        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/app/libs/zoom/zoom.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1922" />
     <option name="height" value="739" />
@@ -188,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,7 +234,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,18 +301,19 @@
       <workItem from="1602739847482" duration="700000" />
       <workItem from="1602762766930" duration="11163000" />
       <workItem from="1602823656412" duration="5604000" />
-      <workItem from="1602832904667" duration="16215000" />
+      <workItem from="1602832904667" duration="23658000" />
+      <workItem from="1603098062406" duration="1861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189933000" />
+    <option name="totallyTimeSpent" value="199237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -463,23 +468,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="235" column="136" selection-start-line="235" selection-start-column="136" selection-end-line="235" selection-end-column="136" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#5;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/custom.js" />
     <entry file="file://$PROJECT_DIR$/app/news-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -507,27 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/zoom/zoom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
         </state>
       </provider>
     </entry>
@@ -645,10 +614,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="832" column="8" selection-start-line="832" selection-start-column="8" selection-end-line="832" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="1316" column="20" selection-start-line="1316" selection-start-column="20" selection-end-line="1316" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/merch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1397" column="64" selection-start-line="1397" selection-start-column="64" selection-end-line="1397" selection-end-column="64" />
+        <state relative-caret-position="92">
+          <caret line="144" column="26" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="26" />
           <folding>
             <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
@@ -676,24 +666,23 @@
             <element signature="n#style#0;n#div#1;n#div#0;n#div#10;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#11;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#11;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#11;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#13;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="211" column="22" selection-start-line="211" selection-end-line="211" selection-end-column="22" />
+        <state relative-caret-position="-2667">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+    <entry file="file://$PROJECT_DIR$/app/libs/zoom/zoom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="771" column="23" selection-start-line="771" selection-start-column="23" selection-end-line="771" selection-end-column="23" />
+        <state relative-caret-position="392">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
         </state>
       </provider>
     </entry>

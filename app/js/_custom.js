@@ -1,6 +1,32 @@
 $(function() {
 
 
+
+    $('.gif-slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        asNavFor: '.slider-nav',
+        prevArrow: $('.prev-arrow-fade'),
+        nextArrow: $('.next-arrow-fade'),
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false,
+        centerMode: false,
+        focusOnSelect: false,
+        swipe: false,
+        vertical: true,
+    });
+
+
+
+
+
 //1 фото в ширину, слайдер
     $('.main-header-slider').slick({
         arrows: false,
@@ -160,7 +186,6 @@ $(function() {
 
 
     });
-
 
 
 
