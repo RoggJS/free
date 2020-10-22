@@ -24,9 +24,6 @@ $(function() {
     });
 
 
-
-
-
 //1 фото в ширину, слайдер
     $('.main-header-slider').slick({
         arrows: false,
@@ -42,6 +39,7 @@ $(function() {
         touchMove: false,
         accessibility: false
     });
+
 
 //1 фото в ширину, слайдер
     $('.merchant-slider').slick({
@@ -145,6 +143,41 @@ $(function() {
         }
     });
 
+
+   var list3 = $("#portfolioList3 .faq-item");
+    var numToShow2 = 3;
+    var button2 = $("#showMoreButton3");
+    var numInList2 = list2.length;
+    list3.hide();
+    if (numInList2 > numToShow2) {
+        button2.show();
+    }
+    list3.slice(0, numToShow2).show();
+    button2.click(function(){
+
+        var showing2 = list3.filter(':visible').length;
+        list3.slice(showing2 - 1, showing2 + numToShow2).fadeIn();
+        var nowShowing = list3.filter(':visible').length;
+        if (nowShowing >= numInList2) {
+            button2.hide();
+        }
+    });
+
+
+
+
+
+    $('#showMoreButton4').on("click", function (event) {
+        event.preventDefault();
+        $('.merchant-product-row').show(300);
+        $(this).hide();
+
+        let  top = $('#scrollRow').offset().top;
+        //анимируем переход на расстояние - top за 1500 мс
+        $('body,html').animate({scrollTop: top}, 1500);
+
+
+    });
 
 
     $('.parallax-window').parallax({

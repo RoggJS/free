@@ -109,10 +109,12 @@ p
     border: 1px solid #ffffff
     border-radius: 20px
     text-align: center
-
+    transition: all ease-in .2s
     &:hover
+        transition: all ease-in .2s
         color: #ffffff
         text-decoration: none
+        opacity: .5
 .main-menu-phone.dark
     border: 1px solid #000
     &:hover
@@ -129,6 +131,10 @@ p
     & a
         display: block
         margin-left: 23px
+        transition: all ease-in .2s
+        &:hover
+            opacity: .5
+            transition: all ease-in .2s
 
 .main-menu
     padding: 0 20px
@@ -326,6 +332,7 @@ body label.check-box-label
     border: 0
     align-items: center
     justify-content: center
+    cursor: pointer
     &:focus
         outline: none
     &:hover
@@ -1154,6 +1161,9 @@ body label.check-box-label
     margin-bottom: 100px
 .merchant-product-row
     margin-top: 10px
+#showMoreButton4
+    display: none
+
 .merchant-product-card
     display: flex
     align-items: center
@@ -1237,7 +1247,7 @@ body label.check-box-label
     content: ''
     display: block
     border-radius: 4px
-    transform: rotate(-180deg)
+    transform: rotate(0deg)
     width: 0
     height: 0
     border-left: 6px solid transparent
@@ -1246,7 +1256,7 @@ body label.check-box-label
     margin-left: 10px
     transition: all ease-in .2s
 .faq-item.active .faq-title:after
-    transform: rotate(0deg)
+    transform: rotate(-180deg)
     transition: all ease-in .2s
 .news-section
     padding-top: 160px
