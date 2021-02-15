@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c6a6e59d-f879-4f86-a2f7-8dc1b551bcde" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/merch.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/merch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/merch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="1575" column="50" lean-forward="true" selection-start-line="1575" selection-start-column="50" selection-end-line="1575" selection-end-column="59" />
+            <state relative-caret-position="743">
+              <caret line="1776" column="45" selection-start-line="1776" selection-start-column="45" selection-end-line="1776" selection-end-column="60" />
               <folding>
                 <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
@@ -84,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="1161" column="21" selection-start-line="1161" selection-start-column="1" selection-end-line="1161" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="1163" selection-start-line="1163" selection-end-line="1164" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -93,8 +87,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="833" column="25" selection-start-line="833" selection-start-column="25" selection-end-line="833" selection-end-column="25" />
+            <state relative-caret-position="560">
+              <caret line="837" column="21" selection-start-line="837" selection-start-column="21" selection-end-line="837" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -131,8 +134,8 @@
       <find>.faq-title</find>
       <find>Ответы</find>
       <find>.form-button</find>
-      <find>merchant-product-row</find>
       <find>Какую продукцию мы делаем?</find>
+      <find>merchant-product-row</find>
     </findStrings>
     <replaceStrings>
       <replace>upakovka@free-creative.com</replace>
@@ -174,10 +177,10 @@
         <option value="D:/DOWNLOADS/Chrome/demo6/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/libs/zoom/zoom.js" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
-        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/app/merch.html" />
         <option value="$PROJECT_DIR$/app/js/_custom.js" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
       </list>
     </option>
   </component>
@@ -303,18 +306,18 @@
       <workItem from="1602832904667" duration="23658000" />
       <workItem from="1603098062406" duration="2889000" />
       <workItem from="1603106615257" duration="639000" />
-      <workItem from="1603345907027" duration="2757000" />
+      <workItem from="1603345907027" duration="3679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203661000" />
+    <option name="totallyTimeSpent" value="204583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14498934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -341,7 +344,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/libs/parallax/jquery.parallax.min.js" />
     <entry file="file://D:/DOWNLOADS/Chrome/parallax.js-1.5.0/bower.json" />
     <entry file="file://D:/DOWNLOADS/Chrome/simple-parallax-scrolling-tutorial-s/index.html" />
     <entry file="file://D:/DOWNLOADS/Chrome/parallax.js-2.0.0-alpha/test/index.html" />
@@ -623,24 +625,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+    <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1161" column="21" selection-start-line="1161" selection-start-column="1" selection-end-line="1161" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="833" column="25" selection-start-line="833" selection-start-column="25" selection-end-line="833" selection-end-column="25" />
+        <state relative-caret-position="483">
+          <caret line="174" column="23" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/merch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1575" column="50" lean-forward="true" selection-start-line="1575" selection-start-column="50" selection-end-line="1575" selection-end-column="59" />
+        <state relative-caret-position="743">
+          <caret line="1776" column="45" selection-start-line="1776" selection-start-column="45" selection-end-line="1776" selection-end-column="60" />
           <folding>
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -689,10 +684,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/_custom.js">
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="174" column="23" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="1163" selection-start-line="1163" selection-end-line="1164" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="837" column="21" selection-start-line="837" selection-start-column="21" selection-end-line="837" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
