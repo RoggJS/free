@@ -23,8 +23,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/_custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +107,10 @@
       <workItem from="1603106615257" duration="639000" />
       <workItem from="1603345907027" duration="3679000" />
       <workItem from="1613375666520" duration="882000" />
-      <workItem from="1613376556476" duration="20040000" />
+      <workItem from="1613376556476" duration="22398000" />
+      <workItem from="1613453771029" duration="9931000" />
+      <workItem from="1613464656437" duration="21554000" />
+      <workItem from="1613548986679" duration="12793000" />
     </task>
     <servers />
   </component>

@@ -50,6 +50,7 @@ gulp.task('scripts', function() {
 		'app/libs/wow/wow.min.js',
 		'app/libs/fancybox/jquery.fancybox.min.js',
 		'app/libs/parallax/parallax.min.js',
+		'app/libs/mixitup/mixitup.min.js',
 		'app/libs/zoom/zoom.js',
 
 		'app/js/_custom.js', // Custom scripts. Always at the end

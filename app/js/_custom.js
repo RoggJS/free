@@ -1,7 +1,4 @@
 $(function() {
-
-
-
     $('.gif-slider').slick({
         dots: false,
         infinite: true,
@@ -23,7 +20,6 @@ $(function() {
         vertical: true,
     });
 
-
 //1 фото в ширину, слайдер
     $('.main-header-slider').slick({
         arrows: false,
@@ -39,7 +35,6 @@ $(function() {
         touchMove: false,
         accessibility: false
     });
-
 
 //1 фото в ширину, слайдер
     $('.merchant-slider').slick({
@@ -60,8 +55,53 @@ $(function() {
     });
 
 
+    let favoritSlider = $('.favorit-slider')
+    let leaderSlider = $('.leaders-row')
+
+    $(window).on('load resize', function() {
+        if ($(window).width() < 760) {
+
+            favoritSlider.slick({
+                arrows: true,
+                prevArrow: $('.prev-favorite'),
+                nextArrow: $('.next-favorite'),
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                swipe: true,
+                touchMove: false,
+                accessibility: false
+            });
+
+            leaderSlider .slick({
+                arrows: true,
+                prevArrow: $('.prev-leaders'),
+                nextArrow: $('.next-leaders'),
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                swipe: true,
+                touchMove: false,
+                accessibility: false
+            });
+
+        } else {
+
+        }
+    });
+
 
 //smooth scroll
+    $(".logos-area-trigger").on("click", function (event) {
+        $('.main-logos-area-footer').toggleClass('show-area')
+        $(this).toggleClass('rotate')
+    });
+
+
     $(".navigate-btn").on("click", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
@@ -72,6 +112,7 @@ $(function() {
         //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({scrollTop: top}, 1500);
     });
+
     $('.toggle-button').click(function(){
         $('.menu-burger').toggleClass('hidden');
         $('.hidden-menu').toggleClass('show-menu');
@@ -79,10 +120,8 @@ $(function() {
     });
 
 
-
     $(".mobile-show-button").on("click", function (event) {
         event.preventDefault();
-
         $('.hidden-mobile-gallery').show(300);
         $(this).hide();
 
@@ -97,15 +136,12 @@ $(function() {
 
 
 //show more
-
         if (document.documentElement.clientWidth < 577 ) {
             var numToShow = 3;
         } else {
             var numToShow = 9;
         }
-
         var list = $("#portfolioList .portfolio-item-counter");
-
         var button = $("#showMoreButton");
         var numInList = list.length;
         list.hide();
@@ -122,8 +158,6 @@ $(function() {
             }
         });
 
-
-
     var list2 = $("#portfolioList2 .portfolio-item-counter");
     var numToShow2 = 4;
     var button2 = $("#showMoreButton2");
@@ -134,7 +168,6 @@ $(function() {
     }
     list2.slice(0, numToShow2).show();
     button2.click(function(){
-
         var showing2 = list2.filter(':visible').length;
         list2.slice(showing2 - 1, showing2 + numToShow2).fadeIn();
         var nowShowing = list2.filter(':visible').length;
@@ -154,7 +187,6 @@ $(function() {
     }
     list3.slice(0, numToShow2).show();
     button2.click(function(){
-
         var showing2 = list3.filter(':visible').length;
         list3.slice(showing2 - 1, showing2 + numToShow2).fadeIn();
         var nowShowing = list3.filter(':visible').length;
@@ -162,8 +194,6 @@ $(function() {
             button2.hide();
         }
     });
-
-
 
 
 
@@ -175,14 +205,10 @@ $(function() {
         let  top = $('#scrollRow').offset().top;
         //анимируем переход на расстояние - top за 1500 мс
         $('body,html').animate({scrollTop: top}, 1500);
-
-
     });
-
 
     $('.parallax-window').parallax({
         mirrorContainer: '.guarantee-section',
-
     });
 
 
@@ -195,12 +221,10 @@ $(function() {
         $video.attr('src', src + '&autoplay=1');
     });
 
-
     let currentItem = $('.part-1').offset().top - 400;
     let destItem = $('.part-2').offset().top - 410;
 
     $(window).scroll(function (){
-
         let posY = window.scrollY; // сколько уже прокрутили
         $('.part-3').hide();
         if (posY > currentItem ){
@@ -216,9 +240,10 @@ $(function() {
             $('.part-1').show();
             $('.part-2').show();
         }
-
-
     });
+
+
+
 
 
 

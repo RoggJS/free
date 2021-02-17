@@ -55,9 +55,10 @@ p
 
 .main-header
     position: relative
+.main-header.vh100
+    position: relative
     min-height: 100%
     height: 100vh
-
 .main-menu
     position: absolute
     z-index: 1010
@@ -141,6 +142,12 @@ p
     &:hover
         color: #000
         text-decoration: none
+.main-menu-phone.dark
+    border: 1px solid #000
+    &:hover
+        color: #000
+        text-decoration: none
+
 .main-menu-contacts
     display: flex
     align-items: center
@@ -169,7 +176,8 @@ p
     top: 32px
     z-index: 1100
     display: none
-
+.menu-burger.white
+    background: url("../img/burger-white.png") no-repeat center center / cover
 .hidden-menu
     height: 100vh
     width: 0
@@ -952,6 +960,16 @@ body label.check-box-label
         right: -115px
         width: 100%
         max-width: 261px
+.third-designer-card
+    padding: 15px 103px 15px 15px
+    max-width: 820px
+    width: 100%
+    margin: 0 0 40px 60px
+    & img
+        right: -115px
+        width: 100%
+        max-width: 261px
+
 .our-partners-section
     margin-top: 100px
 .our-partners-title
@@ -970,10 +988,15 @@ body label.check-box-label
     display: block
     width: 100%
     max-width: 652px
+.showreel-img
+    display: block
+    width: 100%
+    max-width: 1120px
 .video-wrapper
     background: url("../img/zaglushka.jpg")no-repeat center center / cover
     z-index: 99
     cursor: pointer
+
 .bradcrumbs
     padding-top: 140px
     & a
@@ -1391,9 +1414,6 @@ body label.check-box-label
 .page-author, .page-hashtag
     font-size: 18px
     color: #2B59C3
-
-
-
 .img-magnifier-container
     position: absolute
     z-index: 99
@@ -1461,7 +1481,7 @@ body label.check-box-label
 
 .expertise-section
     padding: 60px 0 90px 0
-    background: #E5E5E5
+    background: #f3f3f3
 .expertise-subtitle
     font-size: 33px
     padding-bottom: 33px
@@ -1557,5 +1577,281 @@ body label.check-box-label
     display: none
 .expertise-item-trigger.mobile
     display: none
+.main-page-body-color
+    background: #f3f3f3
+.target-video
+    width: 100%
+    display: block
+    max-width: 860px
+    margin: 5px auto
+    border-radius: 5px
+.target-section
+    padding-bottom: 90px
+.target-title
+    font-size: 33px
+    line-height: 1.1
+    padding-bottom: 30px
+.target-description
+    font-size: 20px
+    max-width: 420px
+.container-target
+    width: 100%
+    max-width: 1380px
+    margin: 0 auto
+    padding-right: 15px
+    padding-left: 15px
+.know-section
+    padding: 100px 0 45px 0
+    background: #2B59C3
+    border-radius: 5px
+.know-title
+    line-height: 1
+    font-style: normal
+    font-weight: normal
+    font-size: 66px
+    color: #FFFFFF
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
+
+.know-item
+    display: flex
+    align-items: center
+    margin-bottom: 55px
+    & img
+        margin-right: 30px
+.know-item-description
+    font-size: 33px
+    line-height: 1
+    color: #FFFFFF
+    font-family: '20Kopeek-Book',sans-serif
+.know-row
+    padding-top: 70px
+    padding-left: 70px
+    & p
+        font-size: 20px
+        color: #FFFFFF
+        margin-bottom: 25px
+.showreel-section
+    padding: 100px 0
+    background: #c53238
+    border-radius: 5px
+.show-case-button
+    position: absolute
+    z-index: 222
+    color: #FFFFFF
+    top: 50%
+    left: 50%
+    width: 320px
+    display: flex
+    text-align: center
+    justify-content: center
+    align-items: center
+    height: 60px
+    margin-top: -30px
+    margin-left: -160px
+    border: 1px solid #FFFFFF
+    box-sizing: border-box
+    border-radius: 15px
+    opacity: 0
+    transition: all ease-in-out .5s
+.favorit-row .favorit-card-thumb
+    width: 100%
+    height: 524px
+    display: block
+    background-size: cover !important
+    background-repeat: no-repeat !important
+    background-position: center center !important
+    transition: all ease-in .5s
+    overflow: hidden
+    &:hover
+        transform: scale(1.2)
+        transition: all ease-in-out .5s
+        background: rgba(24, 24, 24, 0.7)
+        & .show-case-button
+            transition: all ease-in-out .5s
+            opacity: 1
+    &:after
+        transition: all ease-in .3s
+        content: ''
+        width: 100%
+        position: absolute
+        height: 100%
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        background: rgba(24, 24, 24, 0)
+    &:hover:after
+        transition: all ease-in .3s
+        background: rgba(24, 24, 24, 0.7)
+.favorit-card
+    overflow: hidden
+    display: block
+    width: 100%
+    height: 524px
+    position: relative
+    transition: all ease-in .3s
+.favorit-section
+    padding-top: 160px
+.main-page-title
+    font-style: normal
+    font-weight: normal
+    font-size: 66px
+    color: #000000
+    line-height: 1.1
+    & span
+        color: $accent
+.favorit-row
+    padding-top: 50px
+    & .slick-slide
+        padding: 0
+.favorit-row .slick-active .favorit-card-thumb:after
+    transition: all ease-in 1s
+    background: rgba(24, 24, 24, 0.7)
+
+.favorit-row .slick-active .show-case-button
+    opacity: 1
+    transition: all ease-in 1.2s
+.favorit-slider .slick-list
+    padding: 0 25% 0 0
+
+.position-relative
+    position: relative
+.margin-auto
+    margin: 20px auto 0
+    display: block
+.our-tem-main-section
+    padding: 140px 0
+.hover-accordion
+    display: flex
+    flex-direction: row
+    width: 100%
+    height: 639px
+.hover-accordion-item
+    flex: 1
+    height: 100%
+    background-position: center top
+    background-size: cover
+    background-repeat: no-repeat
+    transition: flex 0.8s ease
+.hover-accordion-item:hover
+    flex: 7
+.details-card
+    width: 100%
+    max-width: 361px
+.details-row
+    padding-top: 75px
+.details-card-title
+    font-size: 33px
+    padding-bottom: 35px
+.details-card-description
+    font-size: 20px
+.leaders-section
+    padding: 80px 0 145px 0
+.leaders-row
+    margin-top: 90px
+.main-logos-section
+    background: #000000
+    border-radius: 5px
+    padding: 60px 0
+.main-logos-p
+    color: #FFFFFF
+    font-size: 33px
+    padding-bottom: 30px
+.main-logos-area-head
+    background: url("../img/white-logo/desctop-1.png")no-repeat center center / contain
+    height: 197px
+    width: 100%
+.main-logos-area-footer
+    background: url("../img/white-logo/desctop-2.png")no-repeat center center / contain
+    width: 100%
+    display:  block
+    height: 0
+    transition: all ease-in .4s
+.main-logos-area-footer.show-area
+    display: block
+    height: 311px
+    transition: all ease-in .4s
+.main-logos-area
+    padding-top: 70px
+.logos-area-trigger
+    display: block
+    background: url("../img/white-logo/arrow-down.svg")no-repeat
+    width: 40px
+    height: 15px
+    cursor: pointer
+    margin: 20px auto
+    transition: all ease-in .4s
+.logos-area-trigger.rotate
+    transform: rotate(180deg)
+    transition: all ease-in .4s
+.contact-section-main
+    padding-top: 100px
+    & .text-input
+        background: transparent
+        border: 1px solid #181818
+        box-sizing: border-box
+        border-radius: 10px
+        height: 60px
+    &  a
+        font-family: '20Kopeek', sans-serif
+    & .checkbox-description a
+
+        color: #868686
+    & .checkbox-input
+        background: transparent
+    & .h2
+        font-family: '20Kopeek', sans-serif
+.main-social-area
+    margin-top: 20px
+    & a
+        display: block
+        font-size: 20px
+        color: #868686
+.portfolio-page-section
+    padding: 200px 0 160px 0
+.filter-div ul
+    padding: 0
+    margin: 0
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    flex-wrap: wrap
+    & li
+        font-size: 20px
+        color: #868686
+        display: block
+        list-style-type: none
+        margin-right: 60px
+        cursor: pointer
+        transition: all ease-in .2s
+        &:hover
+            color: $accent
+            transition: all ease-in .2s
+.filter.mixitup-control-active
+    color: $accent
+.mix-item img
+        width: 100%
+        display: block
+        height: 800px
+        object-fit: cover
+.filter-div
+    padding-bottom: 20px
+.padded-informer
+    padding-bottom: 17px
+.page-navigation a
+    display: flex
+    align-items: center
+    justify-content: space-between
+    max-width: 150px
+    margin: 60px auto 0
+    font-size: 20px
+    color: #868686
+
+
+
+
+
+
+
 
 @import "media"

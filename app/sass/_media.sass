@@ -5,6 +5,8 @@
 
 // ≥1200px
 +media-breakpoint-down(lg)
+    .filter-div ul li
+        margin-right: 20px
     .expertise-visuals-row
         justify-content: center
     .main-menu-list-item
@@ -23,7 +25,6 @@
     .first-designer-card
         padding: 15px 125px 15px 15px
         width: 423px
-        height: 203px
         line-height: 1.2
         & img
             right: -80px
@@ -32,7 +33,6 @@
     .second-designer-card
         padding: 15px 67px 15px 15px
         width: 374px
-        height: 204px
         margin-left: 40px
         line-height: 1.2
         & img
@@ -66,8 +66,24 @@
         display: block
     .img-magnifier-container
         display: none
+    .know-row
+        padding-left: 0
+         
 // ≥992px
 +media-breakpoint-down(md)
+    .portfolio-page-section
+        padding: 125px 0 40px 0
+    .page-navigation a
+        max-width: 110px
+        margin: 40px auto 0
+        font-size: 15px
+    .mix-item img
+        height: 309px
+
+    .main-logos-p
+        color: #FFFFFF
+        font-size: 16px
+        padding-bottom: 20px
     .expertise-gallery-description
         font-size: 18px
         padding: 23px 0 40px 80px
@@ -214,7 +230,6 @@
     .first-designer-card
         padding: 6px 100px 6px 6px
         width: 315px
-        height: 155px
         line-height: 1.3
         & img
             right: -65px
@@ -223,9 +238,17 @@
     .second-designer-card
         padding: 6px 65px 6px 6px
         width: 278px
-        height: 155px
         margin-left: 30px
         line-height: 1.3
+        & img
+            right: -72px
+            width: 100%
+            max-width: 186px
+    .third-designer-card
+        padding: 8px 85px 8px 8px
+        max-width: 680px
+        width: 100%
+        margin: 0 0 60px 0
         & img
             right: -72px
             width: 100%
@@ -330,8 +353,154 @@
             width: 100%
             height: 100%
             object-fit: cover
+    .target-title
+            font-size: 18px
+    .target-description
+        font-size: 16px
+    .target-section
+        padding-bottom: 60px
+    .know-title
+        font-size: 27px
+    .know-section
+        padding: 35px 0 60px 0
+    .know-item-row
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        justify-content: space-between
+
+    .know-item-row-p
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        & p
+            width: 300px
+            padding: 10px
+            display: block
+            font-size: 14px
+    .know-item
+        display: flex
+        align-items: center
+        margin-bottom: 30px
+        min-width: 300px
+        & img
+            margin-right: 10px
+            object-fit: contain
+            width: 40px
+            height: 40px
+    .know-item-description
+        font-size: 18px
+        line-height: 1.4
+    .know-row
+        padding-top: 40px
+    .showreel-section
+        padding: 60px 0
+    .main-page-title
+        font-size: 27px
+    .favorit-section
+        padding-top: 80px
+    .favorit-row .favorit-card-thumb
+        width: 100%
+        height: 290px
+    .favorit-row .favorit-card
+        width: 100%
+        height: 290px
+    .our-tem-main-section
+        padding: 75px 0 44px 0
+    .details-card-title
+        font-size: 18px
+        padding-bottom: 20px
+    .details-card-description
+        font-size: 14px
+    .details-row
+        padding-top: 40px
+    .leaders-section
+        padding: 80px 0 65px 0
+    .leaders-row
+        margin-top: 50px
+
+
+    .main-logos-area-head
+        background: url("../img/white-logo/tab-1.png")no-repeat center center / contain
+        height: 78px
+    .main-logos-area-footer
+        background: url("../img/white-logo/tab-2.png")no-repeat center center / contain
+    .main-logos-area-footer.show-area
+        height: 122px
+        margin-top: 15px
+
+    .main-logos-area
+        padding-top: 40px
+    .contact-section-main
+        padding-top: 50px
 // ≥768px
 +media-breakpoint-down(sm)
+    .portfolio-page-section
+        padding: 125px 0 30px 0
+    .mix-item img
+        height: 226px
+    .filter-div ul li
+        margin-right: 20px
+        font-size: 15px
+    .contact-section-main.contact-section
+        padding-top: 26px
+
+    .main-logos-p
+        color: #FFFFFF
+        font-size: 14px
+        padding-bottom: 15px
+    .leaders-section
+        padding: 40px 0 65px 0
+    .details-card-title
+        font-size: 18px
+        padding-bottom: 6px
+        max-width: 180px
+    .details-card-description
+        font-size: 14px
+        padding-bottom: 25px
+    .details-row
+        padding-top: 40px
+    .our-tem-main-section
+        padding: 46px 0 22px 0
+    .prev-favorite
+        background: url("../img/left-arrow.svg")no-repeat
+        width: 10px
+        height: 22px
+        position: absolute
+        top: 50%
+        z-index: 9999
+        left: 15px
+    .next-favorite
+        background: url("../img/right-arrow.svg")no-repeat
+        width: 10px
+        height: 22px
+        position: absolute
+        top: 50%
+        z-index: 9999
+        right: 15px
+    .main-page-title
+        font-size: 24px
+    .favorit-section
+        padding-top: 56px
+    .know-item-row-p p
+        width: 100%
+        padding: 0
+    .showreel-section
+        padding: 30px 0
+    .know-title
+        font-size: 24px
+    .know-section
+        padding: 30px 0 30px 0
+    .main-menu-banner-description-index
+        font-size: 20px
+        max-width: 230px
+
+    .expertise-section
+        padding: 34px 0 49px 0
+    .target-description
+        font-size: 14px
+    .target-title
+        padding: 20px 0
     .expertise-item-trigger
         width: 20px
         height: 20px
@@ -465,7 +634,6 @@
         max-width: 492px
     .how-choose-title
         font-size: 30px
-
         padding-left: 30px
         & span
             font-size: 35px
@@ -481,13 +649,19 @@
     .designers-card-title
         font-size: 32px
         top: -40px
+    .designers-card-title.leaders-title
+        position: static
+        color: #FFFFFF
+        font-size: 18px
+    .leaders-row
+        margin-top: 25px
     .designers-card-description
         font-size: 12px
     .first-designer-card
         padding: 8px 80px 8px 8px
         width: 257px
-        height: 157px
         line-height: 1.3
+        margin: 0 auto
         & img
             right: -55px
             width: 100%
@@ -495,15 +669,22 @@
     .second-designer-card
         padding: 8px 85px 8px 8px
         width: 257px
-        height: 141px
-        margin-left: 0
         line-height: 1.3
-        margin-top: 60px
-
+        margin: 0 auto
+        min-height: 200px
         & img
             right: -72px
             width: 100%
             max-width: 175px
+    .third-designer-card
+        padding: 8px 85px 8px 8px
+        max-width: 257px
+        width: 100%
+        margin: 0 auto
+        & img
+            right: -72px
+            width: 100%
+            max-width: 186px
     .our-team-img
         margin-bottom: 20px
     .our-team-designers-row
@@ -611,6 +792,32 @@
 
 // ≥576px
 +media-breakpoint-down(xs)
+    .filter-div ul
+        justify-content: space-between
+    .filter-div ul li
+        font-size: 14px
+        margin-bottom: 8px
+
+    .contact-section-main.contact-section
+        padding-top: 26px
+    .main-logos-section
+        padding: 28px 0 36px 0
+    .main-logos-area-head
+        background: url("../img/white-logo/mob-1.png")no-repeat center center / contain
+        height: 190px
+    .main-logos-area-footer
+        background: url("../img/white-logo/mob-2.png")no-repeat center center / contain
+    .main-logos-area-footer.show-area
+        height: 216px
+        margin-top: 15px
+    .show-case-button
+        width: 160px
+        height: 60px
+        font-size: 16px
+        margin-left: -80px
+
+    .favorit-row
+        padding-top: 20px
     .expertise-item-description-mobile
         padding: 10px 0
     .expertise-visuals-card
